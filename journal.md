@@ -29,4 +29,13 @@ mkdir backend && py_client
 cd backend
 django-admin startproject cfehome .
 ```
-- Change the name of the main-level folder of the project from automax to src. i.e the folder that contains subfolders called automax and manage.py
+
+REST APIs: Web based API, uses HTTP request.
+Normal HTTP requests returns -> HTML
+REST API HTTP requests returns -> JSON 
+
+
+
+
+class 2:
+we have seen clients interacting with an endpoint using a pythin clien and the browser as a client, next we want to control what the client sees, we want to control the endpoint, we want to endpoint to send out data we want to send not the data sombody else designed, in this case, not the data of "https://httpbin.org/"
